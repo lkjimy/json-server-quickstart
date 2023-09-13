@@ -1,0 +1,14 @@
+[
+  {
+    "brand": [1],
+    "name": "Lancer Evo",
+    "createdAt": "Tue, 12 Sep 2023 12:00:00 GMT",
+    "id": 1
+  },
+  {
+    "brand": [2],
+    "name": "350z",
+    "createdAt": "Tue, 12 Sep 2023 12:00:00 GMT",
+    "id": 2
+  }
+]

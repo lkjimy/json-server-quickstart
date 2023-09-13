@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "plate": "ABC123",
+    "car": [1],
+    "createdAt": "Tue, 12 Sep 2023 22:43:05 GMT"
+  },
+  {
+    "id": 2,
+    "name": "Chris Doe",
+    "plate": "ABC321",
+    "car": [2],
+    "createdAt": "Tue, 12 Sep 2023 22:43:05 GMT"
+  }
+]
