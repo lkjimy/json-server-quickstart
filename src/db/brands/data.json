@@ -8,5 +8,15 @@
     "id": 2,
     "name": "Nissan",
     "createdAt": "Tue, 12 Sep 2023 22:39:57 GMT"
+  },
+  {
+    "name": "Wolkswagen",
+    "createdAt": "Thu, 14 Sep 2023 15:14:13 GMT",
+    "id": 3
+  },
+  {
+    "name": "Honda",
+    "createdAt": "Thu, 14 Sep 2023 15:15:43 GMT",
+    "id": 4
   }
 ]
