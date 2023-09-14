@@ -4,10 +4,19 @@ import routes from './routes.js'
 
 dotenv.config()
 
+const options = {
+  // If you want to serve a basic frontend, define the path in the 'static' option.
+  // static: './path',
+  logger: true,
+  bodyParser: true,
+  noCors: false,
+  readOnly: false
+}
+
 const PORT = process.env.JSON_SERVER_PORT || 3000
 const server = jsonServer.create()
 const router = jsonServer.router(routes.routes)
-const middlewares = jsonServer.defaults()
+const middlewares = jsonServer.defaults(options)
 
 server.use(middlewares)
 server.use(jsonServer.bodyParser)
@@ -28,6 +37,6 @@ server.use(router)
 
 server.listen(PORT, () => {
   console.log(
-    `JSON Server is running on port: ${PORT}.\nPress S to save modified data.`
+    `JSON Server is running on port: ${PORT}.\nPress 'S' to save a snapshot of the database.`
   )
 })

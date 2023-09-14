@@ -32,8 +32,8 @@ for (let index = 1; index < 3; index++) {
   data.push({
     id: unusedId,
     name: `User ${index}`,
-    plate: '#',
-    car: [],
+    plate: '',
+    carId: '',
     createdAt: date.toUTCString()
   })
 }

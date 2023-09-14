@@ -1,14 +1,14 @@
 [
   {
-    "brand": [1],
+    "id": 1,
+    "brandId": 1,
     "name": "Lancer Evo",
-    "createdAt": "Tue, 12 Sep 2023 12:00:00 GMT",
-    "id": 1
+    "createdAt": "Tue, 12 Sep 2023 12:00:00 GMT"
   },
   {
-    "brand": [2],
+    "id": 2,
+    "brandId": 2,
     "name": "350z",
-    "createdAt": "Tue, 12 Sep 2023 12:00:00 GMT",
-    "id": 2
+    "createdAt": "Tue, 12 Sep 2023 12:00:00 GMT"
   }
 ]
